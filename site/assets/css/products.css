@@ -1,0 +1,64 @@
+/* index.html */
+
+.tr {
+    color: black;
+}
+
+.v1 {
+    border-left: 1px solid black;
+    height: 500px;
+    margin: 20px;
+}
+
+.tr:hover {
+    text-decoration: none;
+}
+
+.navbar-dark {
+    background-color: #512DA8;
+    color: white;
+}
+
+.jumbotron {
+    background-color: rgb(81, 48, 104);
+    color: white;
+}
+
+
+/* product.html */
+
+.a {
+    background-color: white;
+    /* width: 20px; */
+    border: 1px solid;
+    padding: 30px;
+    margin: 0px;
+    display: inline-block;
+    color: purple;
+    color: black;
+    font-weight: bold;
+}
+
+.a:hover {
+    background-color: lightgray;
+    text-decoration: none;
+    color: #512DA8;
+    transition-delay: 200ms;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgba(213, 184, 255, 1);
+    color: black
+}
+
+.fa {
+    color: blue;
+}
+
+.fa:hover {
+    text-decoration: none;
+    color: black;
+}

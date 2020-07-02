@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>Login form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/products.css">
@@ -37,7 +37,7 @@
                 <div class="col-8 col-sm-5">
                     <form class="form row my-2 my-lg-0">
                         <input class="form-control mr-sm-2 col-sm-8" type="search" placeholder="Search entire store here" aria-label="Search">
-                        <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </div>
                 <div class="col-2 col-sm-3">
@@ -72,32 +72,63 @@
 
             </div>
         </nav>
-        <div class="jumbotron">
-            <div class="row">
-                <div class="col-12 col-sm-6">
-                    <h2>Nepal's finest E-Commerce site</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore veritatis distinctio, consectetur molestias, ex similique impedit possimus tempore facilis consequuntur suscipit. Consequuntur in tenetur quo pariatur fugit necessitatibus
-                        accusamus dicta.</p>
-                </div>
-            </div>
-        </div>
     </header>
+
     <div class="container">
-        this is home page
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-3 m-5">
+                <form>
+                    <h5>Login</h5>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address*</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password*</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #512DA8;  color:white;">Login</button>
+                </form>
+            </div>
+            <div class="col-sm-3 m-5">
+                <form>
+                    <h5>Register</h5>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address*</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password*</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #512DA8; color:white;">Register</button>
+                </form>
+            </div>
+            <div class="col-sm-2"> </div>
+        </div>
     </div>
+
+
     <footer>
         <hr>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-3">
                     <h3>Reach Us At</h3>
-                    Address: Dhapakhel,Lalitpur,Nepal <br> Phone: 01-55412545 <br> Mobile: 984785665<br> Email: <a href="#" class="dark fa">myecommerce@gmail.com</a>
+                    Address: Dhapakhel,Lalitpur,Nepal <br> Phone: 01-55412545 <br> Mobile: 984785665<br> Email: <a href="#" class="dark">myecommerce@gmail.com</a>
                 </div>
                 <div class="col-12 col-sm-3">
                     <h3>Useful Links</h3>
-                    <a href="#" class="fa">Delivery</a> <br>
-                    <a href="#" class="fa">Payments</a> <br>
-                    <a href="#" class="fa">Return and Cancellation</a> <br>
+                    <a href="#">Delivery</a> <br>
+                    <a href="#">Payments</a> <br>
+                    <a href="#">Return and Cancellation</a> <br>
 
                 </div>
                 <div class="col-12 col-sm-3">
@@ -117,7 +148,9 @@
 
         </div>
         <p class="mt-4" style="text-align: center;">Copyright 2020 E-Commerce site</p>
+
     </footer>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
