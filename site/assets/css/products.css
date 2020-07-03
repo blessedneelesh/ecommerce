@@ -1,5 +1,8 @@
 /* index.html */
 
+
+/* topright */
+
 .tr {
     color: black;
 }
@@ -9,6 +12,9 @@
     height: 500px;
     margin: 20px;
 }
+
+
+/* topright */
 
 .tr:hover {
     text-decoration: none;
@@ -22,6 +28,66 @@
 .jumbotron {
     background-color: rgb(81, 48, 104);
     color: white;
+}
+
+
+/* search */
+
+.searchform input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.searchform button {
+    width: 10%;
+    padding: 10px;
+    background: rgba(213, 184, 255, 1);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+.searchform button:hover {
+    background: rgb(222, 210, 240);
+    ;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: rgba(213, 184, 255, 1);
+    color: black;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.fa {
+    color: blue;
+}
+
+.fa:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* index */
+
+.ib {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
 }
 
 
@@ -47,18 +113,4 @@
 }
 
 
-/* footer */
-
-footer {
-    background-color: rgba(213, 184, 255, 1);
-    color: black
-}
-
-.fa {
-    color: blue;
-}
-
-.fa:hover {
-    text-decoration: none;
-    color: black;
-}
+/* My cart */

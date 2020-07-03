@@ -13,83 +13,89 @@
 <body>
     <header>
         <div class="" style="background-color:lightgray; color:black">
-            <div class="row">
-                <div class="col-3 col-sm-1">
-                    viber:123456789
-                </div>
-                <div class="col-6 col-sm-9">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 col-sm-1">
+                        viber:123456789
+                    </div>
+                    <div class="col-6 col-sm-9">
 
+                    </div>
+                    <div class="col-3 col-sm-2">
+                        <a href="login.html" class="tr">Login in</a>
+                        <a href="login.html" class="tr v1">Register</a>
+                    </div>
                 </div>
-                <div class="col-3 col-sm-2">
-                    <a href="login.html" class="tr">Login in</a>
-                    <a href="login.html" class="tr v1">Register</a>
 
-                </div>
 
             </div>
         </div>
-        <div class="container m-3">
+        <div class="mt-3"></div>
+        <div class="container">
             <div class="row">
-                <div class="col-2 col-sm-2"></div>
-
-                <div class="col-2 col-sm-2">
+                <div class=" col-12 col-sm-2 ">
                     Logo
                 </div>
-                <div class="col-8 col-sm-5">
-                    <form class="form row my-2 my-lg-0">
-                        <input class="form-control mr-sm-2 col-sm-8" type="search" placeholder="Search entire store here" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <div class="col-12 col-sm-7">
+                    <form class="searchform" action="">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
                     </form>
                 </div>
-                <div class="col-2 col-sm-3">
-                    <h2>my cart</h2>
+                <div class="col-12 col-sm-3">
+                    <a href="Cart.html" style="text-decoration: none; color:black">
+                        <div class="row ">
+                            <div class="col-sm-3 "></div>
+                            <div class="col-sm-3 ">
+                                <span class="fa fa-shopping-bag fa-lg fa-3x " style="color:gray"></span>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <strong>My Cart</strong> <br> Items-2 Rs.5000
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#">Logo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <div class="mt-3"></div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container">
+                <a class="navbar-brand " href="# ">Logo</a>
+                <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+                <span class="navbar-toggler-icon "></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="products.html">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Repair and Maintainance</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="nav-item  ">
+                            <a class="nav-link " href="index.html ">Home <span class="sr-only ">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link " href="products.html ">Products</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="repairAndMaintainance.html ">Repair and Maintainance</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="contactus.html ">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
         </nav>
-        <div class="container">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item active" aria-current="page">products</li>
-                </ol>
-            </nav>
-
-            <!-- <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Library</li>
-                </ol>
-            </nav> -->
-            </nav>
-
-        </div>
-
     </header>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Products</li>
+            </ol>
+        </nav>
+    </div>
     <br><br>
     <div class="container">
         <div class="row">
@@ -139,40 +145,44 @@
 
 
     <br><br>
-    <footer>
-        <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-3">
-                    <h3>Reach Us At</h3>
-                    Address: Dhapakhel,Lalitpur,Nepal <br> Phone: 01-55412545 <br> Mobile: 984785665<br> Email: <a href="#" class="dark">myecommerce@gmail.com</a>
-                </div>
-                <div class="col-12 col-sm-3">
-                    <h3>Useful Links</h3>
-                    <a href="#">Delivery</a> <br>
-                    <a href="#">Payments</a> <br>
-                    <a href="#">Return and Cancellation</a> <br>
+    <hr>
+    <div class="footer">
+        <footer>
+            <div class="container ">
+                <div class="row ">
+
+
+
+                    <div class="col-12 col-sm-3 mt-3">
+                        <h3>Reach Us At</h3>
+                        Address: Dhapakhel,Lalitpur,Nepal <br> Phone: 01-55412545 <br> Mobile: 984785665<br> Email: <a href="# " class="dark fa ">myecommerce@gmail.com</a>
+                    </div>
+                    <div class="col-12 col-sm-3 mt-3 ">
+                        <h3>Useful Links</h3>
+                        <a href="# " class="fa ">Delivery</a> <br>
+                        <a href="# " class="fa ">Payments</a> <br>
+                        <a href="# " class="fa ">Return and Cancellation</a> <br>
+
+                    </div>
+                    <div class="col-12 col-sm-3 mt-3 ">
+                        <h3>Connect With Us</h3>
+                        <a class="btn btn-social-icon btn-facebook " href="# "><span
+                            class="fa fa-facebook fa-lg m-1 "></span></a>
+                        <a class="btn btn-social-icon btn-instagram " href="# "><span
+                            class="fa fa-instagram fa-lg m-1 "></span></a>
+                        <a class="btn btn-social-icon btn-linkedin " href="# "><span
+                            class="fa fa-linkedin fa-lg m-1 "></span></a>
+                        <a class="btn btn-social-icon btn-linkedin " href="# "><span
+                            class="fa fa-google fa-lg m-1 "></span></a>
+
+                    </div>
 
                 </div>
-                <div class="col-12 col-sm-3">
-                    <h3>Connect With Us</h3>
-                    <a class="btn btn-social-icon btn-facebook" href="#"><span
-                            class="fa fa-facebook fa-lg m-1"></span></a>
-                    <a class="btn btn-social-icon btn-instagram" href="#"><span
-                            class="fa fa-instagram fa-lg m-1"></span></a>
-                    <a class="btn btn-social-icon btn-linkedin" href="#"><span
-                            class="fa fa-linkedin fa-lg m-1"></span></a>
-                    <a class="btn btn-social-icon btn-linkedin" href="#"><span
-                            class="fa fa-google fa-lg m-1"></span></a>
-
-                </div>
-
             </div>
 
-        </div>
-        <p class="mt-4" style="text-align: center;">Copyright 2020 E-Commerce site</p>
-
-    </footer>
+            <p class="mt-4 " style="text-align: center; ">Copyright 2020 E-Commerce site</p>
+        </footer>
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
